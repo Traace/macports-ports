@@ -2,6 +2,7 @@
 
 PortSystem          1.0
 PortGroup           muniversal 1.0
+PortGroup           legacysupport 1.0
 
 # devel requires C++11 as of 2017-08-21
 # https://gitlab.kitware.com/cmake/cmake/commit/c1f3eb9f2d628b2911aa17f65012fab0befc4b87
@@ -65,11 +66,11 @@ if {${subport} eq ${name}} {
 
     # devel
 
-    version         20190212
-    set commit      9d2ab63aaf5fb29d812dbfc942da4d7671c5d1b3
-    checksums       rmd160 ec059ca80a9d6406eae83b11f84e93bbc0779407 \
-                    sha256 8ae75ab36232228b5270b69a88cf669fe20011bc5c0df26a90c7b18fe7659f87 \
-                    size   6616562
+    version         20190302
+    set commit      033728e86780d61215ebcab442d9a130bdd0461c
+    checksums       rmd160 0bf338596f65d5d26f4693c8fd0e196cea547d58 \
+                    sha256 38cad7834156e1ca5c38f949bc2cc49a8897da50246ac1eb0e518e10ab441152 \
+                    size   6608637
     revision        0
 
     use_bzip2       yes

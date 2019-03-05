@@ -31,11 +31,11 @@ if {${name} eq ${subport}} {
 
 subport direnv-devel {
 
-    go.setup  github.com/direnv/direnv 0dcb17f5a0b77222a76785dd427f29c1d27d3d81
-    version   20190209
-    checksums rmd160 82dcf907d257fb25e2bc194918382cd3f47d7b79 \
-              sha256 ea47adb7499eeefbe39e8a663a600578e7dd8d8c5029f1fbcb854344d5ef9cb0 \
-              size   97496
+    go.setup  github.com/direnv/direnv b625129ee7e45d84a8cd90812078a8773d2a65ef
+    version   20190227
+    checksums rmd160 7cf0b3df74d3abed0c093be7630fb47006d75099 \
+              sha256 4e7834284d9395614dfce53385a156dc842c5c70b50cbb260df4f52277b2d939 \
+              size   97494
     revision  0
 
     conflicts       direnv
